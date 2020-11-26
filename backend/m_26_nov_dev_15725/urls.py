@@ -31,6 +31,7 @@ urlpatterns = [
     path("rest-auth/registration/account-confirm-email/<str:key>/", confirm_email),
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
     path("home/", include("home.urls")),
+    path("homefghfg/", include("homefghfg.urls")),
 ]
 
 admin.site.site_header = "m 26 nov"
