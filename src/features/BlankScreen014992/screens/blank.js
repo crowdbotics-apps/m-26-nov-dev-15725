@@ -27,7 +27,10 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <Icon name="address-card" />
+      <View style={styles.View_3}>
+        <View />
+        <View />
+      </View>
     </View>
   )
 }
@@ -43,5 +46,9 @@ const styles = StyleSheet.create({
   View_1: {},
   Icon_2: {},
   View_1: {},
-  Icon_2: {}
+  Icon_2: {},
+  View_1: {},
+  View_3: { flexDirection: "row" },
+  View_4: {},
+  View_5: {}
 })
